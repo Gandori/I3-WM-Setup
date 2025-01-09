@@ -8,8 +8,14 @@ focus_follows_mouse yes
 default_border pixel 3
 default_floating_border pixel 3
 
+# exec runs a command only once at i3 no-startup-id
+# while exec_always runs it every time the config is reloaded
+
 # Background Image
 exec_always --no-startup-id feh --bg-scale ~/I3-WM-Setup/background-images/002.png
+
+# start window animation tool picom
+exec_always --no-startup-id picom --config ~/I3-WM-Setup/picom.conf
 
 # Restart i3
 bindsym $mod+Shift+c restart
