@@ -1,6 +1,22 @@
 #!/bin/bash
 
-programs=(i3-wm i3blocks rofi feh powerline lxappearance caffeine thunar gimp musikcube docker.io docker-compose audacity)
+programs=(
+    i3-wm
+    i3blocks
+    rofi
+    picom
+    feh
+    powerline
+    lxappearance
+    caffeine
+    thunar
+    gimp
+    musikcube
+    docker.io
+#    docker-compose
+    docker-compose-v2
+    audacity
+)
 for programm in ${programs[@]}; do
     sudo apt install $programm -y
 done
