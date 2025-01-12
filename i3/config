@@ -5,7 +5,7 @@ gaps outer 10px
 font pango:monospace 18
 title_align center
 focus_follows_mouse yes
-default_border pixel 3
+default_border pixel 2
 default_floating_border pixel 3
 
 # exec runs a command only once at i3 no-startup-id
@@ -43,29 +43,46 @@ bindsym $mod+s exec --no-startup-id gnome-screenshot
 # gsettings set org.gnome.gnome-screenshot auto-save-directory "file:///home/"
 
 # Change Focus
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
-bindsym $mod+Right focus right
+# bindsym $mod+Left focus left
+# bindsym $mod+Down focus down
+# bindsym $mod+Up focus up
+# bindsym $mod+Right focus right
+
+bindsym $mod+j focus left
+bindsym $mod+l focus down
+bindsym $mod+k focus up
+bindsym $mod+semicolon focus right
 
 # Move Focused Window
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
+# bindsym $mod+Shift+Left move left
+# bindsym $mod+Shift+Down move down
+# bindsym $mod+Shift+Up move up
+# bindsym $mod+Shift+Right move right
+
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move down
+bindsym $mod+Shift+semicolon move right
 
 # Split Orientation Horizontal
 bindsym $mod+h split h
+bindsym $mod+o split h
 
 # Split Orientation Vertical
 bindsym $mod+v split v
+bindsym $mod+i split v
 
 # Layout Mode
-bindsym $mod+l mode "Layout"
+# bindsym $mod+l mode "Layout"
+bindsym $mod+e mode "Layout"
 mode "Layout" {
-    bindsym s layout stacking
-    bindsym b layout tabbed
-    bindsym t layout toggle split
+#    bindsym s layout stacking
+#    bindsym b layout tabbed
+#    bindsym t layout toggle split
+
+    bindsym j layout stacking
+    bindsym k layout tabbed
+    bindsym l layout toggle split
 
     bindsym Escape mode "default"
     bindsym $mod+Space mode "default"
