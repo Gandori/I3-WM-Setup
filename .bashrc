@@ -13,6 +13,8 @@ PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$'
 
 . $HOME/I3-WM-Setup/.bash_aliases
 
+export INPUTRC="$HOME/I3-WM-Setup/.inputrc"
+
 # Powerline
 if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]; then
   powerline-daemon -q
