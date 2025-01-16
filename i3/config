@@ -85,6 +85,7 @@ mode "Layout" {
     bindsym l layout toggle split
 
     bindsym Escape mode "default"
+    bindsym $mod+e mode "default"
     bindsym $mod+Space mode "default"
 }
 
