@@ -16,6 +16,7 @@ programs=(
 #    docker-compose
     docker-compose-v2
     audacity
+    kitty
 )
 for programm in ${programs[@]}; do
     sudo apt install $programm -y
@@ -27,3 +28,4 @@ for file in ${files[@]}; do
 done
 
 sudo cp ./i3Custom.desktop /usr/share/xsessions/
+
