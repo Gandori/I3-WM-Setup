@@ -8,10 +8,11 @@ cursor_blink yes
 window_padding_width 0
 enable_gl yes
 
+map F11 toggle_fullscreen
+
 background #002B36
 foreground #ffffff
 cursor #708183
-selection_background #002731
 color0 #002731
 color8 #001e26
 color1 #d01b24
@@ -28,5 +29,6 @@ color6 #259185
 color14 #81908f
 color7 #e9e2cb
 color15 #fcf4dc
-selection_foreground #001e26
+selection_background #ffffff
+selection_foreground #000000
 
