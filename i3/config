@@ -5,14 +5,16 @@ gaps outer 10px
 font pango:monospace 18
 title_align center
 focus_follows_mouse yes
-default_border pixel 2
-default_floating_border pixel 3
+# default_border pixel 2
+# default_floating_border pixel 3
+for_window [class=".*"] border pixel 0
 
 # exec runs a command only once at i3 no-startup-id
 # while exec_always runs it every time the config is reloaded
 
 # Background Image
-exec_always --no-startup-id feh --bg-scale ~/I3-WM-Setup/background-images/002.png
+# exec_always --no-startup-id feh --bg-scale ~/I3-WM-Setup/background-images/002.png
+exec_always --no-startup-id feh --bg-scale ~/I3-WM-Setup/background-images/gogeta-ssj4.jpg
 
 # start window animation tool picom
 exec_always --no-startup-id picom --config ~/I3-WM-Setup/picom.conf
@@ -132,9 +134,11 @@ mode "Resize" {
     bindsym Escape mode "default"
 }
 
+for_window [class="i3bar"] floating enable, border pixel 0
+
 # Status Bar
 bar {
-    status_command i3blocks -c ~/I3-WM-Setup/i3blocks/config
+    mode dock
     colors {
         background #252a33
         statusline #141a21
@@ -144,4 +148,7 @@ bar {
     padding 5px 10px 5px 0px
     separator_symbol"|"
     workspace_min_width 50px
+    tray_output none
+    status_command i3blocks -c ~/I3-WM-Setup/i3blocks/config
 }
+
