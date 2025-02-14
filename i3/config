@@ -142,7 +142,7 @@ bar {
     padding 5px 10px 5px 0px
     separator_symbol"|"
     workspace_min_width 50px
-    tray_output none
+    tray_output primary
     status_command i3blocks -c ~/I3-WM-Setup/i3blocks/config
 }
 
