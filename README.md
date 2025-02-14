@@ -6,6 +6,23 @@
 ![Alt-Text](./preview-images/neovide.png)
 ![Alt-Text](./preview-images/gnome-terminal.png)
 
+### Install Polybar
+
+**Polybar Repo**
+> https://github.com/polybar/polybar
+
+**Get Polybar**
+> Testing with Ubuntu 20.04
+```sh
+sudo add-apt-repository ppa:kgilmer/speed-ricer
+```
+```sh
+sudo apt update
+```
+```sh
+sudo apt install polybar
+```
+
 ### Install Neovide-0.14-0
 
 **Neovide Repo**
