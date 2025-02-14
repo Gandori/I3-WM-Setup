@@ -13,7 +13,7 @@
 
 **Get Neovide-0-14-0**
 ```sh
-wget -o neovide-0-14-0  https://github.com/neovide/neovide/releases/download/0.14.0/neovide.AppImage
+wget -o neovide-0-14-0.AppImage  https://github.com/neovide/neovide/releases/download/0.14.0/neovide.AppImage
 ```
 
 **Moving the file to the correct location**
@@ -38,7 +38,7 @@ sudo chmod 755 /usr/local/bin/neovide
 
 **Get Audacity-3-7-1**
 ```sh
-wget -0 audacity-3-7-1 https://github.com/audacity/audacity/releases/tag/Audacity-3.7.1
+wget -o audacity-3-7-1.AppImage https://github.com/audacity/audacity/releases/tag/Audacity-3.7.1
 ```
 
 **Moving the file to the correct location**
