@@ -13,7 +13,7 @@
 
 **Get Neovide-0-14-0**
 ```sh
-wget -o neovide-0-14-0.AppImage  https://github.com/neovide/neovide/releases/download/0.14.0/neovide.AppImage
+wget -O neovide-0-14-0.AppImage  https://github.com/neovide/neovide/releases/download/0.14.0/neovide.AppImage
 ```
 
 **Moving the file to the correct location**
@@ -38,7 +38,7 @@ sudo chmod 755 /usr/local/bin/neovide
 
 **Get Audacity-3-7-1**
 ```sh
-wget -o audacity-3-7-1.AppImage https://github.com/audacity/audacity/releases/download/Audacity-3.7.1/audacity-linux-3.7.1-x64-22.04.AppImage
+wget -O audacity-3-7-1.AppImage https://github.com/audacity/audacity/releases/download/Audacity-3.7.1/audacity-linux-3.7.1-x64-22.04.AppImage
 ```
 
 **Moving the file to the correct location**
@@ -63,7 +63,7 @@ sudo chmod 755 /usr/local/bin/audacity
 
 **Get Krita**
 ```sh
-wget -o krita.AppImage https://download.kde.org/stable/krita/5.2.9/krita-5.2.9-x86_64.AppImage
+wget -O krita.AppImage https://download.kde.org/stable/krita/5.2.9/krita-5.2.9-x86_64.AppImage
 ```
 
 **Moving the file to the correct location**
