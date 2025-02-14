@@ -1,0 +1,48 @@
+* {
+    nordicBlue: #2D3440;
+    nordicBlueLight: #3A4250;
+
+    white: #bbaa99;
+    whiteLight: #ddccbb;
+
+    // Bold, Italic, Underline
+    highlight: bold #ffffff;
+
+    background-color: @nordicBlue;
+    text-color: #ffeedd;
+    padding: 10px;
+}
+
+window {
+    height: 50%;
+    width: 40%;
+    location: center;
+    anchor: center;
+    border:  0px 0px 0px 0px;
+    text-color: @whiteLight;
+}
+
+inputbar {
+    background-color: @nordicBlue;
+    padding: 0px;
+    border: 0px 0px 2px 0px;
+}
+
+mainbox {
+    spacing: 0em;
+}
+
+listview {
+    padding: 1em 1em 1em 1em;
+    dynamic: false;
+    spacing: 5px;
+    lines: 0;
+}
+
+element selected normal {
+    background-color: @nordicBlueLight;
+}
+
+element selected active {
+    background-color: @nordicBlueLight;
+}
