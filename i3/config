@@ -5,6 +5,7 @@ gaps outer 10px
 font pango:monospace 18
 title_align center
 focus_follows_mouse yes
+floating_modifier $mod
 # default_border pixel 2
 # default_floating_border pixel 3
 for_window [class=".*"] border pixel 0
@@ -12,7 +13,7 @@ for_window [class=".*"] border pixel 0
 # exec runs a command only once at i3 no-startup-id
 # while exec_always runs it every time the config is reloaded
 
-exec_always --no-startup-id feh --bg-scale ~/I3-WM-Setup/background-images/gogeta-ssj4.jpg
+exec_always --no-startup-id feh --bg-scale ~/I3-WM-Setup/background-images/dark-souls/dark-souls-1-darker.jpg
 exec_always --no-startup-id picom --config ~/I3-WM-Setup/picom.conf
 
 # Restart i3
@@ -32,7 +33,7 @@ bindsym $mod+Return exec --no-startup-id gnome-terminal --hide-menubar
 bindsym $mod+f exec --no-startup-id firefox
 bindsym $mod+g exec --no-startup-id gimp
 bindsym $mod+a exec --no-startup-id audacity
-bindsym $mod+c exec --no-startup-id code
+# bindsym $mod+c exec --no-startup-id code
 bindsym $mod+t exec --no-startup-id thunar
 bindsym $mod+Tab exec rofi -show window -config ~/I3-WM-Setup/rofi/config
 bindsym $mod+d exec rofi -show run -config ~/I3-WM-Setup/rofi/config
