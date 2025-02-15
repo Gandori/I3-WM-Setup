@@ -49,6 +49,14 @@ If you want to use it, keep in mind that some adjustments may be necessary to ma
 <img src='./preview-images/neovide-neovim-1.png' alt='neovide-neovim-1'/>
 <img src='./preview-images/neovide-neovim-2.png' alt='neovide-neovim-2'/>
 
+### Install i3
+
+**i3 Repo**
+> https://github.com/i3/i3
+
+**Get I3**
+> https://i3wm.org/docs/repositories.html
+
 ### Install Neovim-0-10-4
 
 **Neovim Repo**
