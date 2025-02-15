@@ -1,10 +1,53 @@
-# I3 Window Manager Setup
+<h1 align='center'> I3 Window Manager Setup</h1>
 
-### Preview Images
+<p align='center'>
+    This repository contains my i3 configuration, which works flawlessly on my system.
+</p>
+<p align='center'>
+If you want to use it, keep in mind that some adjustments may be necessary to make it work on your setup
+</p>
 
-![Alt-Text](./preview-images/desktop.png)
-![Alt-Text](./preview-images/neovide.png)
-![Alt-Text](./preview-images/gnome-terminal.png)
+***
+
+<h2 align='center'><b>Information</b></h2>
+
+<p align='center'><b>OS: </b>Ubuntu 20.04.6 LTS x86_64</p>
+<p align='center'><b>Kernel: </b>5.4.0-200-generic</p>
+<p align='center'><b>Package Manager: </b>apt</p>
+<p align='center'><b>WM: </b>i3</p>
+<p align='center'><b>Status Bar: </b>i3blocks</p>
+<p align='center'><b>Launcher: </b>Rofi</p>
+<p align='center'><b>Compositor: </b>Picom</p>
+<p align='center'><b>Shell: </b>bash 5.0.17<p>
+<p align='center'><b>Terminal: </b>gnome-terminal</p>
+<p align='center'><b>Prompt Statusline: </b>Powerline</p>
+<p align='center'><b>Main Code Editor: </b>Neovim</p>
+<p align='center'><b>Secondary Code Editor: </b>Visual Studio Code</p>
+<p align='center'><b>File Manager: </b>Thunar</p>
+<p align='center'><b>Main Browser: </b>Firefox</p>
+<p align='center'><b>Secondary Browser: </b>Brave & Chrome</p>
+<p align='center'><b>Music Player: </b>musikcube</p>
+<p align='center'><b>Image Editing: </b>Gimp & Krita</p>
+<p align='center'><b>Video Editing: </b>Kdenlive</p>
+<p align='center'><b>Audio Editing: </b>Audacity</p>
+<p align='center'><b>Containerization: </b>Docker + Docker Compose</p>
+<p align='center'><b>Prevent Screen Locking: </b>Caffeine</p>
+
+***
+
+<h2 align='center'><b>Preview Images</b><h2>
+
+<h5 align='center'><b>Desktop</b></h5>
+<img src='./preview-images/desktop.png' alt='desktop-1'/>
+<img src='./preview-images/desktop-2.png' alt='desktop-2'/>
+
+<h5 align='center'><b>Gnome-Terminal</b></h5>
+<img src='./preview-images/gnome-terminal-1.png' alt='gnome-terminal-1'/>
+<img src='./preview-images/gnome-terminal-2.png' alt='gnome-terminal-2'/>
+
+<h5 align='center'><b>Neovide+Neovim</b></h5>
+<img src='./preview-images/neovide-neovim-1.png' alt='neovide-neovim-1'/>
+<img src='./preview-images/neovide-neovim-2.png' alt='neovide-neovim-2'/>
 
 ### Install Polybar
 
