@@ -35,7 +35,7 @@ If you want to use it, keep in mind that some adjustments may be necessary to ma
 
 ***
 
-<h2 align='center'><b>Preview Images</b><h2>
+<h2 align='center'><b>Preview Images</b></h2>
 
 <h5 align='center'><b>Desktop</b></h5>
 <img src='./preview-images/desktop.png' alt='desktop-1'/>
@@ -49,24 +49,33 @@ If you want to use it, keep in mind that some adjustments may be necessary to ma
 <img src='./preview-images/neovide-neovim-1.png' alt='neovide-neovim-1'/>
 <img src='./preview-images/neovide-neovim-2.png' alt='neovide-neovim-2'/>
 
-### Install Polybar
+### Install Neovim-0-10-4
 
-**Polybar Repo**
-> https://github.com/polybar/polybar
+**Neovim Repo**
+> https://github.com/neovim/neovim
 
-**Get Polybar**
-> Testing with Ubuntu 20.04
+**Get Neovim-0-10-4**
 ```sh
-sudo add-apt-repository ppa:kgilmer/speed-ricer
+wget -O nvim-0-10-4.AppImage https://github.com/neovim/neovim/releases/download/v0.10.4/nvim-linux-x86_64.appimage
 ```
+**Moving the file to the correct location**
 ```sh
-sudo apt update
-```
-```sh
-sudo apt install polybar
+sudo cp ./nvim-0-10-4.AppImage /usr/local/bin/nvim
 ```
 
-### Install Neovide-0.14-0
+**Make the file executable**
+```sh
+sudo chmod +x /usr/local/bin/nvim
+```
+
+**Set the permissions**
+```sh
+sudo chmod 755 /usr/local/bin/nvim
+```
+
+***
+
+### Install Neovide-0-14-0
 
 **Neovide Repo**
 > https://github.com/neovide/neovide
@@ -90,6 +99,8 @@ sudo chmod +x /usr/local/bin/neovide
 ```sh
 sudo chmod 755 /usr/local/bin/neovide
 ```
+
+***
 
 ### Install Audacity-3-7-1
 
@@ -116,7 +127,9 @@ sudo chmod +x /usr/local/bin/audacity
 sudo chmod 755 /usr/local/bin/audacity
 ```
 
-### Install Krita-0-0-0
+***
+
+### Install Krita-5-2-9
 
 **Krita Repo**
 > https://github.com/KDE/krita
@@ -140,3 +153,23 @@ sudo chmod +x /usr/local/bin/krita
 ```sh
 sudo chmod 755 /usr/local/bin/krita
 ```
+
+***
+
+### Install Polybar
+
+**Polybar Repo**
+> https://github.com/polybar/polybar
+
+**Get Polybar**
+> Testing with Ubuntu 19.04
+```sh
+sudo add-apt-repository ppa:kgilmer/speed-ricer
+```
+```sh
+sudo apt update
+```
+```sh
+sudo apt install polybar
+```
+
