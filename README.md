@@ -38,16 +38,22 @@ If you want to use it, keep in mind that some adjustments may be necessary to ma
 <h2 align='center'><b>Preview Images</b></h2>
 
 <h5 align='center'><b>Desktop</b></h5>
-<img src='./preview-images/desktop.png' alt='desktop-1'/>
-<img src='./preview-images/desktop-2.png' alt='desktop-2'/>
+<div align='center'>
+    <img src='./preview-images/desktop.png' alt='desktop-1' style='width: 45%' hspace='15'>
+    <img src='./preview-images/desktop-2.png' alt='desktop-2' style='width: 45%' hspace='15'>
+</div>
 
 <h5 align='center'><b>Gnome-Terminal</b></h5>
-<img src='./preview-images/gnome-terminal-1.png' alt='gnome-terminal-1'/>
-<img src='./preview-images/gnome-terminal-2.png' alt='gnome-terminal-2'/>
+<div align='center'>
+    <img src='./preview-images/gnome-terminal-1.png' alt='gnome-terminal-1' style='width: 45%;' hspace='15'>
+    <img src='./preview-images/gnome-terminal-2.png' alt='gnome-terminal-2' style='width: 45%;' hspace='15'>
+</div>
 
 <h5 align='center'><b>Neovide+Neovim</b></h5>
-<img src='./preview-images/neovide-neovim-1.png' alt='neovide-neovim-1'/>
-<img src='./preview-images/neovide-neovim-2.png' alt='neovide-neovim-2'/>
+<div align='center'>
+    <img src='./preview-images/neovide-neovim-1.png' alt='neovide-neovim-1' style='width: 45%;' hspace='15'>
+    <img src='./preview-images/neovide-neovim-2.png' alt='neovide-neovim-2' style='width: 45%;' hspace='15'>
+</div>
 
 ***
 
