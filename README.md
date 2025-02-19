@@ -30,7 +30,7 @@ If you want to use it, keep in mind that some adjustments may be necessary to ma
 <p align='center'><b>Image Editing: </b>Gimp & Krita</p>
 <p align='center'><b>Video Editing: </b>Kdenlive</p>
 <p align='center'><b>Audio Editing: </b>Audacity</p>
-<p align='center'><b>Containerization: </b>Docker + Docker Compose</p>
+<p align='center'><b>Containerization: </b>Docker + Docker Compose & microk8s</p>
 <p align='center'><b>Prevent Screen Locking: </b>Caffeine</p>
 
 ***
@@ -54,8 +54,24 @@ If you want to use it, keep in mind that some adjustments may be necessary to ma
 **i3 Repo**
 > https://github.com/i3/i3
 
-**Get I3**
+**Get i3**
 > https://i3wm.org/docs/repositories.html
+
+***
+
+### Setup Gnome-Terminal
+
+**Load config**
+
+```sh
+cd gnome-terminal
+```
+
+```sh
+. load.sh
+```
+
+***
 
 ### Install Neovim-0-10-4
 
