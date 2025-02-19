@@ -49,6 +49,10 @@ If you want to use it, keep in mind that some adjustments may be necessary to ma
 <img src='./preview-images/neovide-neovim-1.png' alt='neovide-neovim-1'/>
 <img src='./preview-images/neovide-neovim-2.png' alt='neovide-neovim-2'/>
 
+***
+
+## Manual installation
+
 ### Install i3
 
 **i3 Repo**
@@ -56,6 +60,23 @@ If you want to use it, keep in mind that some adjustments may be necessary to ma
 
 **Get i3**
 > https://i3wm.org/docs/repositories.html
+
+***
+
+### Install rofi 1.6.1
+
+**Rofi Repo**
+> https://github.com/davatorium/rofi
+
+**List available versions**
+```sh
+apt list -a rofi
+```
+
+**Get Rofi 1.6.1**
+```sh
+sudo apt install rofi=1.6.1-1
+```
 
 ***
 
