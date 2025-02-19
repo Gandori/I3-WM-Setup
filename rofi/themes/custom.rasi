@@ -20,12 +20,15 @@ window {
     anchor: center;
     border:  0px 0px 0px 0px;
     text-color: @whiteLight;
+    border-radius: 15px;
 }
 
 inputbar {
     background-color: @nordicBlue;
-    padding: 0px;
-    border: 0px 0px 2px 0px;
+    padding: 5px;
+    border: 4px 4px 4px 4px;
+    border-color: @nordicBlueLight;
+    border-radius: 10px;
 }
 
 mainbox {
@@ -36,7 +39,12 @@ listview {
     padding: 1em 1em 1em 1em;
     dynamic: false;
     spacing: 5px;
-    lines: 0;
+    lines: 10;
+    columns: 1;
+}
+
+element {
+    border-radius: 10px;
 }
 
 element selected normal {
@@ -46,3 +54,4 @@ element selected normal {
 element selected active {
     background-color: @nordicBlueLight;
 }
+
