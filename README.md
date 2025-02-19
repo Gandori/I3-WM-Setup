@@ -59,13 +59,30 @@ If you want to use it, keep in mind that some adjustments may be necessary to ma
 
 ## Manual installation
 
-### Install i3
+### Install i3-wm
 
-**i3 Repo**
+**i3-wm Repo**
 > https://github.com/i3/i3
 
-**Get i3**
+**Get i3-wm**
 > https://i3wm.org/docs/repositories.html
+
+***
+
+### Install i3blocks
+
+**i3blocks Repo**
+> https://github.com/vivien/i3blocks
+
+**List available versions**
+```sh
+apt list -a i3blocks
+```
+
+**Get i3blocks**
+```sh
+sudo apt install i3block=1.4-4
+```
 
 ***
 
