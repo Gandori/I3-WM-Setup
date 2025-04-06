@@ -32,6 +32,7 @@ If you want to use it, keep in mind that some adjustments may be necessary to ma
 <p align='center'><b>Audio Editing: </b>Audacity</p>
 <p align='center'><b>Containerization: </b>Docker + Docker Compose & microk8s</p>
 <p align='center'><b>Prevent Screen Locking: </b>Caffeine</p>
+<p align='center'><b>Theme Switcher: </b>lxappearance</p>
 
 ***
 
@@ -61,7 +62,7 @@ If you want to use it, keep in mind that some adjustments may be necessary to ma
 
 ### Install i3-wm
 
-**i3-wm Repo**
+**Repo**
 > https://github.com/i3/i3
 
 **Get i3-wm**
@@ -71,7 +72,7 @@ If you want to use it, keep in mind that some adjustments may be necessary to ma
 
 ### Install i3blocks
 
-**i3blocks Repo**
+**Repo**
 > https://github.com/vivien/i3blocks
 
 **List available versions**
@@ -88,7 +89,7 @@ sudo apt install i3block=1.4-4
 
 ### Install rofi 1.6.1
 
-**Rofi Repo**
+**Repo**
 > https://github.com/davatorium/rofi
 
 **List available versions**
@@ -119,7 +120,7 @@ cd gnome-terminal
 
 ### Install Neovim-0-10-4
 
-**Neovim Repo**
+**Repo**
 > https://github.com/neovim/neovim
 
 **Get Neovim-0-10-4**
@@ -145,7 +146,7 @@ sudo chmod 755 /usr/local/bin/nvim
 
 ### Install Neovide-0-14-0
 
-**Neovide Repo**
+**Repo**
 > https://github.com/neovide/neovide
 
 **Get Neovide-0-14-0**
@@ -172,7 +173,7 @@ sudo chmod 755 /usr/local/bin/neovide
 
 ### Install Audacity-3-7-1
 
-**Audacity Repo**
+**Repo**
 > https://github.com/audacity/audacity
 
 **Get Audacity-3-7-1**
@@ -199,7 +200,7 @@ sudo chmod 755 /usr/local/bin/audacity
 
 ### Install Krita-5-2-9
 
-**Krita Repo**
+**Repo**
 > https://github.com/KDE/krita
 
 **Get Krita**
@@ -224,20 +225,37 @@ sudo chmod 755 /usr/local/bin/krita
 
 ***
 
-### Install Polybar
+### Install lxappearance
 
-**Polybar Repo**
-> https://github.com/polybar/polybar
+**Repo**
+> https://github.com/lxde/lxappearance
 
-**Get Polybar**
-> Testing with Ubuntu 19.04
+**Get lxappearance**
 ```sh
-sudo add-apt-repository ppa:kgilmer/speed-ricer
+sudo apt install lxappearance
 ```
+
+**Create Icons Folder**
 ```sh
-sudo apt update
+mkdir ~/.icons
 ```
+
+**Unpack and move the icons to the correct location**
 ```sh
-sudo apt install polybar
+tar -xf ~/I3-WM-Setup/icons/Nordzy.tar.gz  -C ~/.icons/
 ```
+
+**Create Theme Folder**
+```sh
+mkdir ~/.themes/
+```
+
+**Moving the themes to the correct location**
+```sh
+tar -xf ~/I3-WM-Setup/themes/Nordic.tar.xz -C ~/.themes/
+```
+
+**Finally, start lxappearance and choose your theme and icon style.**
+
+***
 
