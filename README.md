@@ -259,3 +259,20 @@ tar -xf ~/I3-WM-Setup/themes/Nordic.tar.xz -C ~/.themes/
 
 ***
 
+### Install musikcube
+
+**Repo**
+> https://github.com/clangen/musikcube
+
+**Get musikcube**
+```sh
+wget -O ~/musikcube-3-0-4.deb https://github.com/clangen/musikcube/releases/download/3.0.4/musikcube_3.0.4_linux_x86_64.deb
+```
+
+**Install**
+```sh
+sudo apt install ~/musikcube-3.0.4.deb
+```
+
+***
+
