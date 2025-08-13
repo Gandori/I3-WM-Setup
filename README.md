@@ -71,7 +71,7 @@ If you want to use it, keep in mind that some adjustments may be necessary to ma
 
 ***
 
-### Install i3blocks
+### Install i3blocks 1.4-4
 
 **Repo**
 > https://github.com/vivien/i3blocks
@@ -105,123 +105,110 @@ sudo apt install rofi=1.6.1-1
 
 ***
 
-### Setup Gnome-Terminal
 
-**Load config**
-
-```sh
-cd gnome-terminal
-```
-
-```sh
-. load.sh
-```
-
-***
-
-### Install Neovim-0-10-4
+### Install Neovim 0.10.4
 
 **Repo**
 > https://github.com/neovim/neovim
 
-**Get Neovim-0-10-4**
+**Get Neovim 0.10.4**
 ```sh
 wget -O nvim-0-10-4.AppImage https://github.com/neovim/neovim/releases/download/v0.10.4/nvim-linux-x86_64.appimage
 ```
 **Moving the file to the correct location**
 ```sh
-sudo cp ./nvim-0-10-4.AppImage /usr/local/bin/nvim
+sudo mv nvim-0-10-4.AppImage /usr/local/bin/nvim-0-10-4
 ```
 
 **Make the file executable**
 ```sh
-sudo chmod +x /usr/local/bin/nvim
+sudo chmod +x /usr/local/bin/nvim-0-10-4
 ```
 
 **Set the permissions**
 ```sh
-sudo chmod 755 /usr/local/bin/nvim
+sudo chmod 755 /usr/local/bin/nvim-0-10-4
 ```
 
 ***
 
-### Install Neovide-0-14-0
+### Install Neovide 0.14.0
 
 **Repo**
 > https://github.com/neovide/neovide
 
-**Get Neovide-0-14-0**
+**Get Neovide 0.14.0**
 ```sh
 wget -O neovide-0-14-0.AppImage  https://github.com/neovide/neovide/releases/download/0.14.0/neovide.AppImage
 ```
 
 **Moving the file to the correct location**
 ```sh
-sudo cp ./neovide-0-14-0.AppImage /usr/local/bin/neovide
+sudo mv neovide-0-14-0.AppImage /usr/local/bin/neovide-0-14-0
 ```
 
 **Make the file executable**
 ```sh
-sudo chmod +x /usr/local/bin/neovide
+sudo chmod +x /usr/local/bin/neovide-0-14-0
 ```
 
 **Set the permissions**
 ```sh
-sudo chmod 755 /usr/local/bin/neovide
+sudo chmod 755 /usr/local/bin/neovide-0-14-0
 ```
 
 ***
 
-### Install Audacity-3-7-1
+### Install Audacity 3.7.1
 
 **Repo**
 > https://github.com/audacity/audacity
 
-**Get Audacity-3-7-1**
+**Get Audacity 3.7.1**
 ```sh
 wget -O audacity-3-7-1.AppImage https://github.com/audacity/audacity/releases/download/Audacity-3.7.1/audacity-linux-3.7.1-x64-22.04.AppImage
 ```
 
 **Moving the file to the correct location**
 ```sh
-sudo cp ./audacity-3-7-1.AppImage /usr/local/bin/audacity
+sudo mv audacity-3-7-1.AppImage /usr/local/bin/audacity-3-7-1
 ```
 
 **Make the file executable**
 ```sh
-sudo chmod +x /usr/local/bin/audacity
+sudo chmod +x /usr/local/bin/audacity-3-7-1
 ```
 
 **Set the permissions**
 ```sh
-sudo chmod 755 /usr/local/bin/audacity
+sudo chmod 755 /usr/local/bin/audacity-3-7-1
 ```
 
 ***
 
-### Install Krita-5-2-9
+### Install Krita 5.2.9
 
 **Repo**
 > https://github.com/KDE/krita
 
-**Get Krita**
+**Get Krita 5.2.9**
 ```sh
-wget -O krita.AppImage https://download.kde.org/stable/krita/5.2.9/krita-5.2.9-x86_64.AppImage
+wget -O krita-5-2-9.AppImage https://download.kde.org/stable/krita/5.2.9/krita-5.2.9-x86_64.AppImage
 ```
 
 **Moving the file to the correct location**
 ```sh
-sudo cp ./krita.AppImage /usr/local/bin/krita
+sudo mv krita-5-2-9.AppImage /usr/local/bin/krita-5-2-9
 ```
 
 **Make the file executable**
 ```sh
-sudo chmod +x /usr/local/bin/krita
+sudo chmod +x /usr/local/bin/krita-5-2-9
 ```
 
 **Set the permissions**
 ```sh
-sudo chmod 755 /usr/local/bin/krita
+sudo chmod 755 /usr/local/bin/krita-5-2-9
 ```
 
 ***
@@ -260,24 +247,24 @@ tar -xf ~/I3-WM-Setup/themes/Nordic.tar.xz -C ~/.themes/
 
 ***
 
-### Install musikcube
+### Install musikcube 3.0.4
 
 **Repo**
 > https://github.com/clangen/musikcube
 
-**Get musikcube**
+**Get musikcube 3.0.4**
 ```sh
 wget -O ~/musikcube-3-0-4.deb https://github.com/clangen/musikcube/releases/download/3.0.4/musikcube_3.0.4_linux_x86_64.deb
 ```
 
 **Install**
 ```sh
-sudo apt install ~/musikcube-3.0.4.deb
+sudo apt install ./musikcube-3.0.4.deb
 ```
 
 ***
 
-### Install flameshot-12-1-0
+### Install flameshot 12.1.0
 
 **Repo**
 > https://github.com/flameshot-org/flameshot
