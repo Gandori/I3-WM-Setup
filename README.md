@@ -33,6 +33,7 @@ If you want to use it, keep in mind that some adjustments may be necessary to ma
 <p align='center'><b>Containerization: </b>Docker + Docker Compose & microk8s</p>
 <p align='center'><b>Prevent Screen Locking: </b>Caffeine</p>
 <p align='center'><b>Theme Switcher: </b>lxappearance</p>
+<p align='center'><b>Screenshots: </b>flameshot</p>
 
 ***
 
@@ -275,4 +276,29 @@ sudo apt install ~/musikcube-3.0.4.deb
 ```
 
 ***
+
+### Install flameshot-12-1-0
+
+**Repo**
+> https://github.com/flameshot-org/flameshot
+
+**Get flameshot**
+```sh
+wget -O flameshot-12-1-0.AppImage https://github.com/flameshot-org/flameshot/releases/download/v12.1.0/Flameshot-12.1.0.x86_64.AppImage
+```
+
+**Moving the file to the correct location**
+```sh
+sudo mv flameshot-12-1-0.AppImage /usr/local/bin/flameshot-12-1.0
+```
+
+**Make the file executable**
+```sh
+sudo chmod +x /usr/local/bin/flameshot-12-1.0
+```
+
+**Set the permissions**
+```sh
+sudo chmod 755 /usr/local/bin/flameshot-12-1-0
+```
 
