@@ -1,4 +1,6 @@
 * {
+    font: "Monospace 20";
+
     nordicBlue: #2D3440;
     nordicBlueLight: #3A4250;
 
