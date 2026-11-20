@@ -13,6 +13,9 @@ for_window [class=".*"] border pixel 0
 # exec runs a command only once at i3 no-startup-id
 # while exec_always runs it every time the config is reloaded
 
+exec --no-startup-id xset -dpms
+exec --no-startup-id xset s off
+
 exec_always --no-startup-id feh --bg-scale ~/I3-WM-Setup/background-images/dark-souls/dark-souls-1.jpg
 # exec_always --no-startup-id feh --bg-scale ~/I3-WM-Setup/background-images/gogeta-ssj4-darker.png
 exec_always --no-startup-id picom --config ~/I3-WM-Setup/picom.conf
