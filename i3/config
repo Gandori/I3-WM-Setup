@@ -39,8 +39,8 @@ bindsym $mod+g exec --no-startup-id gimp
 bindsym $mod+a exec --no-startup-id audacity
 # bindsym $mod+c exec --no-startup-id code
 bindsym $mod+t exec --no-startup-id thunar
-bindsym $mod+Tab exec rofi -show window -config ~/I3-WM-Setup/rofi/config
-bindsym $mod+d exec rofi -show run -config ~/I3-WM-Setup/rofi/config
+bindsym $mod+Tab exec rofi -show drun -show-icons -config ~/I3-WM-Setup/rofi/config
+bindsym $mod+d exec rofi -show run -show-icons -config ~/I3-WM-Setup/rofi/config
 
 bindsym $mod+s exec --no-startup-id gnome-screenshot
 # Ordner festlegen wo die Screenshots gespeicher werden sollen
