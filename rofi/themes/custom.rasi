@@ -1,5 +1,5 @@
 * {
-    font: "Monospace 20";
+    font: "Monospace 13";
 
     nordicBlue: #2D3440;
     nordicBlueLight: #3A4250;
@@ -12,12 +12,15 @@
 
     background-color: @nordicBlue;
     text-color: #ffeedd;
+
+    margin: 0;
     padding: 10px;
+    spacing: 0;
 }
 
 window {
-    height: 50%;
-    width: 40%;
+    height: 60%;
+    width: 50%;
     location: center;
     anchor: center;
     border:  0px 0px 0px 0px;
@@ -41,8 +44,10 @@ listview {
     padding: 1em 1em 1em 1em;
     dynamic: false;
     spacing: 5px;
-    lines: 10;
-    columns: 1;
+    lines: 5;
+    columns: 2;
+    fixed-columns: true;
+    align-items: center;
 }
 
 element {
@@ -57,3 +62,14 @@ element selected active {
     background-color: @nordicBlueLight;
 }
 
+element-icon {
+    size: 30px;
+}
+
+element-icon selected normal {
+    background-color: @nordicBlueLight;
+}
+
+element-text selected normal {
+    background-color: @nordicBlueLight;
+}
