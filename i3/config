@@ -29,6 +29,7 @@ bindsym $mod+Shift+r reload
 # Kill Focused Window
 bindsym $mod+Shift+Return kill
 
+bindsym $mod+0 exec --no-startup-id bash ~/I3-WM-Setup/powermenu/powermenu.sh
 bindsym $mod+n exec --no-startup-id neovide
 bindsym $mod+q exec --no-startup-id gnome-calculator
 bindsym $mod+Return exec --no-startup-id gnome-terminal --hide-menubar
