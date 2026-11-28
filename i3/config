@@ -18,6 +18,8 @@ for_window [class=".*"] border pixel 0
 exec --no-startup-id xset -dpms
 exec --no-startup-id xset s off
 
+exec_always --no-startup-id conky -c ~/I3-WM-Setup/conky/clock.conf
+
 exec_always --no-startup-id feh --bg-scale ~/I3-WM-Setup/background-images/dark-souls/dark-souls-1.jpg
 exec_always --no-startup-id picom --config ~/I3-WM-Setup/picom.conf
 
